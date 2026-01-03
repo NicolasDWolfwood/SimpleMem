@@ -35,6 +35,13 @@
 
 ## 🌟 Overview
 
+<div align="center">
+<img src="fig/Fig_tradeoff.png" alt="Performance vs Efficiency Trade-off" width="900"/>
+
+*SimpleMem achieves superior F1 score (43.24%) with minimal token cost (~550), occupying the ideal top-left position.*
+</div>
+
+
 **SimpleMem** addresses the fundamental challenge of **efficient long-term memory for LLM agents** through a three-stage pipeline grounded in **Semantic Lossless Compression**. Unlike existing systems that either passively accumulate redundant context or rely on expensive iterative reasoning loops, SimpleMem maximizes **information density** and **token utilization** through:
 
 <table>
@@ -157,11 +164,7 @@ $$k_{dyn} = \lfloor k_{base} \cdot (1 + \delta \cdot C_q) \rfloor$$
 
 ## 🚀 Performance Highlights
 
-<div align="center">
-<img src="fig/Fig_tradeoff.png" alt="Performance vs Efficiency Trade-off" width="600"/>
 
-*SimpleMem achieves superior F1 score (43.24%) with minimal token cost (~550), occupying the ideal top-left position.*
-</div>
 
 ### 📊 Benchmark Results (LoCoMo)
 
